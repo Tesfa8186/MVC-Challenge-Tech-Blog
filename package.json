@@ -8,5 +8,23 @@
     "express-session": "^1.17.3",
     "mysql2": "^3.1.2",
     "sequelize": "^6.29.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mvc-challenge-tech-blog",
+  "description": "Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog#readme"
 }
