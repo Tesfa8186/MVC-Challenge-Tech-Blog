@@ -57,7 +57,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Links
 
-- [The URL of the functional of deployed applicetion]()
+- [The URL of the functional of deployed applicetion](https://limitless-wave-96465.herokuapp.com/)
 
 - [The URL of GitHub Repository](https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog)
 
