@@ -13,7 +13,7 @@ header, .post:not(:last-child) {
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #380fda;
   text-decoration: underline;
 }
 
@@ -22,3 +22,4 @@ header, .post:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+

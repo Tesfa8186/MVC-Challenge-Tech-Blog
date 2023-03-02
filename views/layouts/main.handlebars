@@ -10,20 +10,15 @@
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="text-center p-4 bg-success bg-gradient text-red">
-      <h1>
-        <a class="text-red" href="/">Tech Blog</a>
-      </h1>
-      <nav class="text-centre p-4">
-          <!-- Homepage & Dashboard links -->
-        <a href="/">Homepage</a>
-        <a href="/profile">Dashboard</a> 
-        <!-- Logout & Login Links -->
-        | {{#if logged_in}}
-        <button class="no-button" id="logout">logout</button>
+<header class="section">
+      <h1 class=" box title has-text-left-tablet-only has-text-centered-desktop">Tech Blog</h1>
+      <nav class="navbar pt-2 subtitle is-3 is-justify-content-center">
+        <button class=" button is-info is-rounded mx-2"><a class="has-text-white" href="/">Homepage</a></button>
+        {{#if logged_in}}
+        <button class="button is-info is-rounded mx-2"><a class="has-text-white" href="/profile">Dashboard</a></button>
+        <button class="button is-danger is-rounded mx-2" type="button" id="logout">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <button class="button is-success is-rounded mx-2"><a class="has-text-white" href="/login">Login</a></button>
         {{/if}}
       </nav>
     </header>
@@ -32,7 +27,7 @@
       {{{ body }}}
     </main>
     <footer>
-      <h5>Coded by Tesfa</h5>
+      <h5>Coded by Tesfa</h5> 
     </footer>
   </div>
 

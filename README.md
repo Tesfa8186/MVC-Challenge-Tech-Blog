@@ -49,7 +49,9 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Installation
 
-- Installation of the application is on local server with npm start.
+- Installatin on browser with the deployed application of Heroku using the link at the bottom "Links" section. OR
+
+- Installation of the application is on local server with running of npm start.
 
 ## Usage
 
@@ -61,12 +63,10 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 - [The URL of GitHub Repository](https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog)
 
-- [Main Pages on browser](./Assets/MVC-Challenge%20Pages%20Screenshot.webm)
-
 - [Login signup Page Screenshot](./Assets/Tech%20Blog%20login-Signup%20page.png)
 
 ## License
 
-- [Covered by ISC license]()
+- Covered by ISC license [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
