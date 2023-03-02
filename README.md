@@ -53,7 +53,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Usage
 
-- This Tech Blog application usage is to login securly and help to comment, post, update and delete the user.
+- This Tech Blog application could help to all online users to comment, post, update & delete using login details.
 
 ## Links
 
@@ -61,8 +61,12 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 - [The URL of GitHub Repository](https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog)
 
-- [Login Page Screenshot](./Assets/Tech%20Blog%20login%20page.png)
+- [Main Pages on browser](./Assets/MVC-Challenge%20Pages%20Screenshot.webm)
+
+- [Login signup Page Screenshot](./Assets/Tech%20Blog%20login-Signup%20page.png)
 
 ## License
+
+- [Covered by ISC license]()
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

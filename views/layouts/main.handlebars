@@ -11,14 +11,16 @@
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
+    <header class="text-center p-4 bg-success bg-gradient text-red">
       <h1>
-        <a href="/">Tech Blog</a>
+        <a class="text-red" href="/">Tech Blog</a>
       </h1>
-      <nav>
+      <nav class="text-centre p-4">
+          <!-- Homepage & Dashboard links -->
         <a href="/">Homepage</a>
-        {{#if logged_in}}
-        <a href="/profile">Dashboard</a> |
+        <a href="/profile">Dashboard</a> 
+        <!-- Logout & Login Links -->
+        | {{#if logged_in}}
         <button class="no-button" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
@@ -30,7 +32,7 @@
       {{{ body }}}
     </main>
     <footer>
-      <h5>Made by Tesfa</h5>
+      <h5>Coded by Tesfa</h5>
     </footer>
   </div>
 
