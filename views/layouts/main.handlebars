@@ -16,9 +16,9 @@
         <a href="/">Tech Blog</a>
       </h1>
       <nav>
-        <!-- Conditionally render login or logout links -->
+        <a href="/">Homepage</a>
         {{#if logged_in}}
-        <a href="/profile">profile</a> |
+        <a href="/profile">Dashboard</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
@@ -30,7 +30,7 @@
       {{{ body }}}
     </main>
     <footer>
-      
+      <h5>Made by Tesfa</h5>
     </footer>
   </div>
 

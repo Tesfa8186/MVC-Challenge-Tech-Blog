@@ -61,6 +61,8 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 - [The URL of GitHub Repository](https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog)
 
+- [Login Page Screenshot](./Assets/Tech%20Blog%20login%20page.png)
+
 ## License
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
