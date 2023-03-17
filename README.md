@@ -70,7 +70,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 - [Home Page operation](https://watch.screencastify.com/v/7q2Qz8HVVVbYk20NIMl6)
 
-- [Login-signup Page](./assets/Tech-Blog-login-Signup-page.png)
+- [Login-signup Page & others in assets folder](./assets/Tech-Blog-login-Signup-page.png)
 
 ## License
 
