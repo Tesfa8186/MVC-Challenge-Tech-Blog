@@ -62,6 +62,9 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 - This Tech Blog application could help to all online users to comment, post, update & delete using login details.
 
+- Images of Home, Login, Signup & Operational page of the application.
+  ![alt text](./assets/Tech-Blog-Home-page.png)
+
 ## Links
 
 - [The URL of the functional deployed application](https://dashboard.heroku.com/apps/thawing-refuge-48219)
