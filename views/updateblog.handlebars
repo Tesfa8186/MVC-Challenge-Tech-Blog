@@ -1,0 +1,26 @@
+<section class="box has-background-primary-light">
+  <h3 class="title is-4 mb-3">Update your Post</h3>
+  <form class="update-blog-form">
+    <div>
+      <label class="label" for="blog-title">Post Title:</label>
+      <textarea
+        class="textarea mb-3 is-success"
+        rows="1"
+        id="blog-title"
+      >{{title}}</textarea>
+    </div>
+    <div>
+      <label class="label" for="blog-contents">Post Contents:</label>
+      <textarea
+        class="textarea mb-3 is-success"
+        rows="3"
+        id="blog-contents"
+      >{{contents}}</textarea>
+    </div>
+    <div>
+      <button class="button is-success" type="submit">Submit Updated</button>
+    </div>
+  </form>
+</section>
+
+<script src="/js/blogupdate.js"></script>

@@ -1,0 +1,44 @@
+<div class="box has-background-success-light">
+  <h2 class="title is-4 has-text-link-dark m-3">{{title}}</h2>
+  <p class="title is-5 has-text-info pl-3">{{contents}}</p>
+  <p class="pt-3 pl-3">Created by {{user.username}} on {{format_date creation_date}}</p>
+</div>
+<div>
+  {{#if logged_in}}
+    <form class="box has-background-success-light comment-form">
+      <div>
+        <textarea class="textarea is-info mb-3" rows="3" id="comment-text" name="comment-text" placeholder="Type your comment..."></textarea>
+      </div>
+      <div>
+        <button class="button has-background-warning" type="submit">Add Comment</button>
+      </div>
+    </form>
+    {{else}}
+    <button class="button is-rounded has-background-warning mb-5"><a href="/login">Click to Login to leave a comment!</a></button>
+  {{/if}}
+</div>
+{{#if comments.length}}
+  <div>
+    <h2 class="title is-3 mb-2">Comments:</h2>
+  </div>
+  {{#each comments as |comment|}}
+    <div class="box has-background-primary-light">
+      <h4 class="title is-6">{{comment_contents}}</h4>
+      <p>From {{user.username}}</p>
+      <p>{{format_date creation_date}}</p>
+      {{#if ../logged_in}}
+        <button class="button is-danger delete-comment mt-2 is-small" data-id="{{comment.id}}">Delete Comment</button>
+      {{/if}}
+    </div>
+  {{/each}}
+{{/if}}
+
+{{#if logged_in}}
+  <script src="/js/comment.js"></script>
+{{/if}}
+
+{{#if comments.length}}
+  <script src="/js/commentdelete.js"></script>
+{{/if}}
+
+

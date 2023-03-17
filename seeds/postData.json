@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Greeting Message",
+    "contents": "Hello brother how are doing? Hope you are doing well.",
+    "user_id": "1"
+  },
+  {
+    "title": "Healthy Sport",
+    "contents": "Hi brother, I would like to invite you to our sports health club. Do have time on Saturdays?",
+    "user_id": "2"
+  },
+  {
+    "title": "Soccur Game",
+    "contents": "Hello team, we are having game this Saturday & please get ready. Cheers!",
+    "user_id": "3"
+  }
+]

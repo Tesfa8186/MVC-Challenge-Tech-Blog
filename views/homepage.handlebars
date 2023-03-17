@@ -1,0 +1,7 @@
+{{#each blogs as |blog|}}
+<section class="box has-background-success-light">
+  <a class="title is-5 has-text-link-dark m-2" href="/blog/{{blog.id}}">{{blog.title}}</a>
+  <p class="pt-3 pl-4">By: {{blog.user.username}}</p>
+  <p class="pl-4">Created on: {{format_date blog.creation_date}}</p>
+</section>
+{{/each}}

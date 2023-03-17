@@ -1,0 +1,51 @@
+<header>
+  <h2 class="title is-3 mb-3"> Welcome, {{username}}!</h2>
+</header>
+
+<section class="box has-background-danger-light">
+  <h3 class="title is-4 mb-3">Create a new post!</h3>
+  <form class="new-blog-form">
+    <div>
+      <label class="label" for="blog-title">Post Title:</label>
+      <input class="input mb-3 is-danger" type="text" id="blog-title" />
+    </div>
+    <div>
+      <label class="label" for="blog-contents">Post Contents:</label>
+      <textarea class="textarea mb-3 is-danger" id="blog-contents"></textarea>
+    </div>
+    <div>
+      <button class="button is-link" type="submit">Submit</button>
+    </div>
+  </form>
+</section>
+
+{{#if blogs.length}}
+  <section class="blog-list box has-background-warning-light">
+    <h2 class="title is-4 mb-3">Published Post</h2>
+    {{#each blogs as |blog|}}
+      <div class="box has-background-success-light">
+        <h4 class="title is-5 has-text-link-dark m-2"><a
+            href="/blog/{{blog.id}}"
+          >{{blog.title}}</a></h4>
+        <p class="pl-4">{{blog.contents}}</p>
+        <div class="buttons mt-4">
+          <button class="button is-primary ml-4 mr-6" data-id="{{blog.id}}"><a
+              class="has-text-white"
+              href="/updateblog/{{blog.id}}"
+            >Update Post</a></button>
+          <button
+            class="button is-danger delete-blog"
+            data-id="{{blog.id}}"
+          >Delete</button>
+        </div>
+
+      </div>
+    {{/each}}
+  </section>
+{{/if}}
+
+<script src="/js/blognew.js"></script>
+
+{{#if blogs.length}}
+  <script src="/js/blogdelete.js"></script>
+{{/if}}

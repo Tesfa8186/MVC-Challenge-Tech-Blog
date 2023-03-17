@@ -1,0 +1,58 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header class="section">
+      <h1
+        class="box title has-text-left-tablet-only has-text-centered-desktop"
+      >My Tech Blog.</h1>
+      <nav class="navbar pt-2 subtitle is-3 is-justify-content-center">
+        <button class="button is-info is-rounded mx-2"><a
+            class="has-text-white"
+            href="/"
+          >Homepage</a></button>
+        {{#if logged_in}}
+          <button class="button is-info is-rounded mx-2"><a
+              class="has-text-white"
+              href="/profile"
+            >Dashboard</a></button>
+          <button
+            class="button is-danger is-rounded mx-2"
+            type="button"
+            id="logout"
+          >Logout</button>
+        {{else}}
+          <button class="button is-success is-rounded mx-2"><a
+              class="has-text-white"
+              href="/login"
+            >Login</a></button>
+        {{/if}}
+      </nav>
+    </header>
+
+    <main class="section has-background-link-light">
+      {{{body}}}
+    </main>
+
+    <footer class="box footer py-2">
+      <div class="content has-text-centered">
+        <h5>Prepared by Tesfa</h5>
+      </div>
+    </footer>
+
+    {{#if logged_in}}
+      <script src="/js/logout.js"></script>
+    {{/if}}
+  </body>
+
+</html>
