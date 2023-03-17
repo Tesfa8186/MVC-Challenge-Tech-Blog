@@ -64,13 +64,11 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Links
 
-- [The URL of the functional deployed application](https://watch.screencastify.com/v/7q2Qz8HVVVbYk20NIMl6)
+- [The URL of the functional deployed application](https://dashboard.heroku.com/apps/thawing-refuge-48219)
 
 - [The URL of GitHub Repository](https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog)
 
 - [Home Page operation](https://watch.screencastify.com/v/7q2Qz8HVVVbYk20NIMl6)
-
-- [Home page](./assets/Tech-Blog-Home-page.png)
 
 - [Login-signup Page](./assets/Tech-Blog-login-Signup-page.png)
 
