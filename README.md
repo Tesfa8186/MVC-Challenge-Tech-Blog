@@ -67,7 +67,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Links
 
-- [The URL of the functional deployed application](https://dashboard.heroku.com/apps/thawing-refuge-48219)
+- [The URL of the functional deployed application](https://thawing-refuge-48219.herokuapp.com/)
 
 - [The URL of GitHub Repository](https://github.com/Tesfa8186/MVC-Challenge-Tech-Blog)
 
